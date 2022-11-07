@@ -46,17 +46,6 @@ nav ul a, li {
     height: 3rem;
     width: 3rem;
 }
-
-
-@media only screen and (max-width: 600px) {
-    .icon {
-        display: none;
-    }
-    nav ul {
-        padding: 1rem 0;
-    }
-
-}
    
 
 .container {
@@ -74,12 +63,6 @@ nav ul a, li {
     align-items:flex-start;
 }
 
-@media only screen and (max-width: 900px) {
-    #mission {
-    justify-content:flex-start;
-    align-items:flex-end;
-    }
-}
 
 #products {
     height:auto;
@@ -149,5 +132,36 @@ footer {
 span {
     font-size: 1.25rem;
 }
+
+@media only screen and (max-width: 900px) {
+    #mission {
+    justify-content:flex-start;
+    align-items:flex-end;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .icon {
+        display: none;
+    }
+    nav ul {
+        padding: 1rem 0;
+    }
+
+}
+
+@media only screen and (max-width: 450px) {
+
+nav ul {
+    display: block;
+}
+    img {
+        width: 90%;
+    }
+   
+}
+
+
+
 
 
